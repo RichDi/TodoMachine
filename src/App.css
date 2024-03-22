@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'PressStart';
+  src: url('../assets/PressStart2P-Regular.ttf');
+}
+
 .App {
   text-align: center;
 }
@@ -36,3 +41,8 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  background-color: #233553;
+}
+

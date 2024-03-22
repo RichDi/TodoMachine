@@ -1,0 +1,47 @@
+li {
+    list-style-type: none;
+    margin: 20px auto;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    min-width: 250px;
+    max-width: 450px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    background-color: aliceblue;
+    position: relative;
+}
+
+.TodoItem__p {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-family: 'PressStart', sans-serif;
+    font-size: 10px;
+}
+
+.Icon {
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.Icon-check {
+    margin: auto 20px;
+}
+
+.Icon-check--active {
+    color: green;
+}
+
+.Icon-check--inactive {
+    color: red;
+}
+
+.Icon-delete {
+    color: red;
+    position: absolute;
+    font-weight: bolder;
+    top: -5px;
+    right: 10px;
+}
+
